@@ -34,7 +34,7 @@ def main(request):
         print(request.FILES)
         file = request.FILES.get('file')
         summary, file_path = handle_uploaded_file(file)
-        recipient_email = 'dracoparth@gmail.com'
+        recipient_email = 'tech@themedius.ai'
         send_summary_via_email(summary, file_path, recipient_email)
         request.session['summary_html'] = summary.to_html(index=False)
         request.session['file_path'] = file_path
