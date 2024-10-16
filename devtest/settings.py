@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-toj3htx43wt&b@v^((^7n0an!_s4m-ryl88$5$fs3dn1(v(g5a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['excelsummarizer-production.up.railway.app']
 
 
 # Application definition
